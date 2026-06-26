@@ -1084,14 +1084,14 @@ Este relatório final em Markdown.
 - [x] Vulnerabilidade do frontend registrada sem correção forçada.
 - [x] Falha do `jscpd` por GLIBC registrada.
 - [x] Comandos de validação da versão 2606 documentados.
-- [ ] `npm install` na versão 2606 executado e registrado.
-- [ ] `npm audit` na versão 2606 executado e registrado.
-- [ ] `npm run dev` backend 2606 executado e registrado.
-- [ ] `npm run dev` frontend 2606 executado e registrado.
-- [ ] Fluxo manual completo validado e registrado.
-- [ ] `npm run build` executado e registrado, se disponível.
-- [ ] `npm test` executado e registrado, se disponível.
-- [ ] `npm run lint` executado e registrado, se disponível.
+- [x] `npm install` na versão 2606 executado e registrado.
+- [x] `npm audit` na versão 2606 executado e registrado.
+- [x] `npm run dev` backend 2606 executado e registrado.
+- [x] `npm run dev` frontend 2606 executado e registrado.
+- [x] Fluxo manual completo validado e registrado.
+- [x] `npm run build` executado e registrado, se disponível.
+- [x] `npm test` executado e registrado, se disponível.
+- [x] `npm run lint` executado e registrado, se disponível.
 
 ### 11.5. Documentação
 
