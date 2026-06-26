@@ -1,0 +1,4 @@
+{
+  "hash": "2bd1728061420dd850934c3482589f5b",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/validations/simulacaoValidation.js\n\nResumo:\n- Valida o payload da simula\u00e7\u00e3o de consignado.\n\nFun\u00e7\u00f5es:\n- validarPayloadSimulacao(payload) -> Object: valida se o payload \u00e9 um objeto e se os valores de 'valorSolicitado' e 'prazoMeses' est\u00e3o dentro dos crit\u00e9rios definidos. \n\nClasses:\n- Nenhuma classe definida."
+}

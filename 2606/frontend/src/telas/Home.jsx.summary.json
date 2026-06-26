@@ -1,0 +1,4 @@
+{
+  "hash": "915a06b2c1e616892c1009d28e08b638",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/telas/Home.jsx\n\nResumo:\n- Componente de tela inicial que exibe o saldo e permite intera\u00e7\u00f5es.\n\nFun\u00e7\u00f5es:\n- Home({ saldo, onEmprestimos, onLogout }) -> JSX: renderiza a interface da tela inicial com saldo e bot\u00f5es de a\u00e7\u00e3o.\n\nClasses:\n- (Nenhuma classe definida): Componente funcional que utiliza JSX para constru\u00e7\u00e3o da UI."
+}

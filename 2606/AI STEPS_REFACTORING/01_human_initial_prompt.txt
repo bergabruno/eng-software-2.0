@@ -1,0 +1,357 @@
+#PROMPT 1 - GERADO POR HUMANO + IA PARA RESUMIR ARQUIVOS
+
+Gere uma sequência de prompts bem estruturados para que a IA possa avaliar o código e identificar dívidas técnicas, e então refatorar. Divida em etapas e, em cada etapa, a IA poderá usar o contexto que foi passado, e solicitar o envio de um ou mais dos arquivos solicitados, caso seja necessário. Além disso, saiba que na pasta 0306 está a primeira entrega, com prompts, na 1506 está o projeto em si. O 2606 será a versão refatorada. Caso seja necessário rodar alguma ferramenta, me diga também, que rodarei no repositório localmente. 
+
+A seguinte tarefa é a sua: 
+Aplicar técnicas de "Modernização de Sistemas" no projeto desenvolvido nas aulas anteriores. O aluno deve identificar dívidas técnicas geradas (inclusive pela própria IA) e realizar uma refatoração estruturada. O Desafio Você deve realizar uma Auditoria Técnica no sistema que você implementou (baseado na arquitetura da Aula 1). O foco não é adicionar novas funcionalidades, mas garantir que o sistema seja sustentável, seguro e moderno. Entregáveis: 1- Código Refatorado: No seu repositório GitHub (branch refactoring). 2- Relatório de Modernização: Um arquivo PDF ou Markdown. Diagnóstico de Dívida Técnica (sugestão) O aluno deve usar um agente de IA para escanear o projeto e listar: - Code Smells: (Ex: Métodos muito longos, classes com responsabilidades múltiplas). - Violação de Padrões: (Ex: Lógica de banco de dados dentro do Controller). - Obsolescência: (Ex: Uso de loops manuais onde caberia Java Streams). Dica de Prompt: "Aja como um Arquiteto de Software. Analise meu projeto e gere um relatório de dívida técnica, focando em violações de SOLID [e princípios x, y... z] e acoplamento excessivo." Obs.: Documente os prompts de refatoração utilizados. 
+
+Esse é o contexto:
+
+Você é um engenheiro de software sênior.
+
+====================
+ESTRUTURA
+====================
+eng-software-2.0/
+  notes.txt
+  .gitignore
+  0306/
+    arquitetura-completa.md
+    prompt-especializado-mvp-consignado.md
+    trabalho0306.md
+  1506/
+    backend/
+      estado.js
+      server.js
+      calculadora.js
+      package-lock.json
+      package.json
+      rotas/
+        contratacao.js
+        auth.js
+        dataprev.js
+        simulacao.js
+        conta.js
+    frontend/
+      postcss.config.js
+      vite.config.js
+      tailwind.config.js
+      index.html
+      package-lock.json
+      package.json
+      src/
+        main.jsx
+        api.js
+        calc.js
+        index.css
+        App.jsx
+        telas/
+          StatusDataprev.jsx
+          Home.jsx
+          Contratacao.jsx
+          Login.jsx
+          ResultadoSimulacao.jsx
+          Comprovante.jsx
+          Simulacao.jsx
+          Emprestimos.jsx
+  2606/
+
+
+====================
+RESUMOS
+====================
+/root/fiap/eng-software-2.0/1506/backend/calculadora.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/backend/calculadora.js
+
+Resumo:
+- Calcula a simulação de empréstimo consignado com uma taxa fixa mensal.
+
+Funções:
+- calcularSimulacao(valorSolicitado, prazoMeses) -> objeto: retorna detalhes do empréstimo, como valor da parcela e total a pagar.
+- validarEntrada(valorSolicitado, prazoMeses) -> string|null: verifica a validade dos inputs de entrada.
+
+Classes:
+- Nenhuma classe definida.
+
+/root/fiap/eng-software-2.0/1506/backend/estado.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/backend/estado.js
+
+Resumo:
+- Define um estado global para o processo, que persiste até o servidor ser reiniciado.
+
+Funções:
+- Não há funções definidas no código.
+
+Classes:
+- Não há classes definidas no código.
+
+Observações:
+- O código exporta um objeto que mantém o estado, incluindo saldo, contadores e contratos.
+
+/root/fiap/eng-software-2.0/1506/backend/rotas/auth.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/backend/rotas/auth.js
+
+Resumo:
+- Gerencia rotas de autenticação para login e logout.
+
+Funções:
+- router.post('/login', req, res) -> res.json: retorna resposta de login com nome do cliente.
+- router.post('/logout', req, res) -> res.json: retorna resposta de logout confirmando ação.
+
+Classes:
+- Nenhuma classe definida.
+
+/root/fiap/eng-software-2.0/1506/backend/rotas/conta.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/backend/rotas/conta.js
+
+Resumo:
+- Define rotas para gestão de conta, especificamente retornando o saldo.
+
+Funções:
+- router.get('/saldo', req, res) -> res.json: retorna o saldo atual em formato JSON.
+
+Classes:
+- Nenhuma classe definida.
+
+/root/fiap/eng-software-2.0/1506/backend/rotas/contratacao.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/backend/rotas/contratacao.js
+
+Resumo:
+- Gerencia a criação de contratos de simulação com validação de token.
+
+Funções:
+- router.post(req, res) -> res: processa a requisição de contratação, valida o token, atualiza saldo e cria um novo contrato.
+
+Classes:
+- Não há classes definidas.
+
+/root/fiap/eng-software-2.0/1506/backend/rotas/dataprev.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/backend/rotas/dataprev.js
+
+Resumo:
+- Implementa uma rota para validação de clientes na Dataprev.
+
+Funções:
+- consultarDataprev() -> { ok: boolean, codigo?: string }: simula consulta, retornando erro aleatório a cada chamada.
+
+Classes:
+- Não há classes definidas.
+
+/root/fiap/eng-software-2.0/1506/backend/rotas/simulacao.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/backend/rotas/simulacao.js
+
+Resumo:
+- Gerencia requisições de simulação financeira via API.
+
+Funções:
+- router.post() -> resposta: processa dados de entrada e retorna resultado da simulação ou erro.
+
+Classes:
+- Não há classes definidas.
+
+/root/fiap/eng-software-2.0/1506/backend/server.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/backend/server.js
+
+Resumo:
+- Configuração de um servidor Express para uma API REST.
+
+Funções:
+- app.use(ruta, handler): define roteadores para diferentes endpoints da API.
+- app.listen(port, callback): inicia o servidor na porta especificada e imprime mensagem de status.
+
+Classes:
+- Nenhuma classe definida.
+
+/root/fiap/eng-software-2.0/1506/frontend/postcss.config.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/postcss.config.js
+
+Resumo:
+- Configuração do PostCSS com plugins para Tailwind CSS e Autoprefixer.
+
+Funções:
+- nenhuma função definida.
+
+Classes:
+- nenhuma classe definida.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/api.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/api.js
+
+Resumo:
+- Gestão de autenticação e simulação de serviços financeiros via API.
+
+Funções:
+- login() -> Promise: realiza autenticação de usuário.
+- logout() -> Promise: efetua logout do usuário.
+- getSaldo() -> Promise: retorna o saldo da conta.
+- simular(valorSolicitado, prazoMeses) -> Promise: simula condições financeiras e retorna dados.
+- validarDataprev(valorSolicitado, prazoMeses) -> Promise: valida informações para dataprev.
+- contratar(tokenDataprev, simulacao) -> Promise: realiza a contratação de serviços financeiros.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/App.jsx:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/App.jsx
+
+Resumo:
+- Gerencia a navegação entre diferentes telas de uma aplicação React.
+
+Funções:
+- ir(proxima) -> void: altera a tela atual para a próxima.
+
+Classes:
+- Nenhuma classe definida: o código utiliza funções de componente com hooks do React.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/calc.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/calc.js
+
+Resumo:
+- Função que calcula simulações de empréstimo.
+
+Funções:
+- calcularSimulacao(valorSolicitado, prazoMeses) -> objeto: retorna detalhes da simulação de um empréstimo, incluindo valor da parcela e CET anual. 
+
+Classes:
+- Nenhuma classe definida.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/main.jsx:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/main.jsx
+
+Resumo:
+- Inicializa e renderiza o componente principal da aplicação React.
+
+Funções:
+- ReactDOM.createRoot(element) -> root: cria a raiz do DOM para renderização.
+
+Classes:
+- Não há classes definidas no código.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/telas/Comprovante.jsx:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Comprovante.jsx
+
+Resumo:
+- Exibe um comprovante de contratação com detalhes financeiros.
+
+Funções:
+- brl(valor) -> string: formata um valor como moeda brasileira.
+- formatarData(iso) -> string: formata uma data no padrão brasileiro.
+
+Classes:
+- Comprovante: componente que renderiza o comprovante, incluindo cabeçalho, detalhes da contratação e botão para retornar ao início.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/telas/Contratacao.jsx:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Contratacao.jsx
+
+Resumo:
+- Componente React para confirmar a contratação de um serviço financeiro.
+
+Funções:
+- brl(valor) -> string: formata um valor numérico em moeda brasileira.
+- handleContratar() -> void: gerencia o processo de contratação, lidando com erros e carregamento.
+
+Classes:
+- Não há classes definidas no código.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/telas/Emprestimos.jsx:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Emprestimos.jsx
+
+Resumo:
+- Componente React para exibir informações sobre empréstimos consignados.
+
+Funções:
+- Emprestimos({ onVoltar, onConsignado }) -> JSX: renderiza a interface de empréstimos com navegação.
+
+Classes:
+- Nenhuma classe definida; utiliza componentes funcionais do React.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/telas/Home.jsx:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Home.jsx
+
+Resumo:
+- Componente funcional que exibe o saldo e opções de logout e empréstimos.
+
+Funções:
+- brl(valor) -> string: formata um valor monetário em reais.
+
+Classes:
+- Home: componente principal que renderiza o layout da tela inicial com saldo e botões de ação.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/telas/Login.jsx:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Login.jsx
+
+Resumo:
+- Componente de login que permite ao usuário acessar a conta.
+
+Funções:
+- Login({ onEntrar }) -> JSX: renderiza o layout de login com um botão para acessar.
+
+Classes:
+- Nenhuma classe definida.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/telas/ResultadoSimulacao.jsx:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/ResultadoSimulacao.jsx
+
+Resumo:
+- Componente React que exibe os resultados de uma simulação financeira.
+
+Funções:
+- brl(valor) -> string: formata um número como moeda brasileira.
+- formatarData(iso) -> string: converte uma data no formato ISO para DD/MM/AAAA.
+
+Classes:
+- ResultadoSimulacao: exibe os detalhes da simulação, incluindo valores e botões de ação.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/telas/Simulacao.jsx:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Simulacao.jsx
+
+Resumo:
+- Componente para simulação de empréstimos com validação de entrada.
+
+Funções:
+- formatarBRL(digitos) -> string: formata um número para moeda brasileira.
+- parseBRL(formatted) -> number: converte string formatada em número.
+- dataISO(offset) -> string: retorna data ISO ajustada por um offset.
+
+Classes:
+- Simulacao: gerencia a interface e lógica para simulação de empréstimos, incluindo estado e validações.
+
+/root/fiap/eng-software-2.0/1506/frontend/src/telas/StatusDataprev.jsx:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/StatusDataprev.jsx
+
+Resumo:
+- Componente React que valida o status de uma simulação junto ao Dataprev.
+
+Funções:
+- StatusDataprev({ simulacao, onVoltar, onContinuar }) -> JSX: renderiza o status da consulta e interações.
+
+Classes:
+- (nenhuma classe definida nesta implementação).
+
+/root/fiap/eng-software-2.0/1506/frontend/tailwind.config.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/tailwind.config.js
+
+Resumo:
+- Configuração do Tailwind CSS com extensão de cores personalizadas.
+
+Funções:
+- Não há funções definidas no código.
+
+Classes:
+- Não há classes definidas no código.
+
+/root/fiap/eng-software-2.0/1506/frontend/vite.config.js:
+Arquivo: /root/fiap/eng-software-2.0/1506/frontend/vite.config.js
+
+Resumo:
+- Configuração do Vite para um projeto React.
+
+Funções:
+- defineConfig(config) -> config: define a configuração do Vite com plugins e opções.
+
+Classes:
+- Não há classes definidas no código.
+
+====================
+CONSIDERE
+====================
+1. SEJA DIRETO.
+2. Se precisar de arquivos, solicite no formato de lista python.
+Ex: ["models.py","services/..."]

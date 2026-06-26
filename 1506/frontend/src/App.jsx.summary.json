@@ -1,0 +1,4 @@
+{
+  "hash": "34bba5b9ba06f7a637bd62037bd228b5",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/App.jsx\n\nResumo:\n- Gerencia a navega\u00e7\u00e3o entre diferentes telas de uma aplica\u00e7\u00e3o React.\n\nFun\u00e7\u00f5es:\n- ir(proxima) -> void: altera a tela atual para a pr\u00f3xima.\n\nClasses:\n- Nenhuma classe definida: o c\u00f3digo utiliza fun\u00e7\u00f5es de componente com hooks do React."
+}

@@ -1,0 +1,4 @@
+{
+  "hash": "b923d2bf7cd149281e181ac5e11e9764",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Simulacao.jsx\n\nResumo:\n- Componente para simula\u00e7\u00e3o de empr\u00e9stimos com valida\u00e7\u00e3o de entrada.\n\nFun\u00e7\u00f5es:\n- formatarBRL(digitos) -> string: formata um n\u00famero para moeda brasileira.\n- parseBRL(formatted) -> number: converte string formatada em n\u00famero.\n- dataISO(offset) -> string: retorna data ISO ajustada por um offset.\n\nClasses:\n- Simulacao: gerencia a interface e l\u00f3gica para simula\u00e7\u00e3o de empr\u00e9stimos, incluindo estado e valida\u00e7\u00f5es."
+}

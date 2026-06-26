@@ -1,0 +1,4 @@
+{
+  "hash": "0847559256378f8d0e932eafa7b9faf0",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/frontend/vite.config.js\n\nResumo:\n- Configura\u00e7\u00e3o do Vite para um projeto React.\n\nFun\u00e7\u00f5es:\n- defineConfig(config) -> config: define a configura\u00e7\u00e3o do Vite com plugins e op\u00e7\u00f5es.\n\nClasses:\n- N\u00e3o h\u00e1 classes definidas no c\u00f3digo."
+}

@@ -1,0 +1,4 @@
+{
+  "hash": "3938334e79dac53d0704dd62f983cb8e",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/components/AppHeader.jsx\n\nResumo:\n- Componente funcional que renderiza um cabe\u00e7alho com t\u00edtulo e bot\u00e3o de a\u00e7\u00e3o opcional.\n\nFun\u00e7\u00f5es:\n- AppHeader({title, actionLabel, onAction, disabled}) -> JSX: renderiza o cabe\u00e7alho com t\u00edtulo e bot\u00e3o de a\u00e7\u00e3o.\n\nClasses:\n- (nenhuma classe definida): usa componentes funcionais do React para criar a interface."
+}

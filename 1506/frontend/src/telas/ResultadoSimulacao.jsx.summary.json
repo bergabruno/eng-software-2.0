@@ -1,0 +1,4 @@
+{
+  "hash": "f70a15f8ee7893afd144d7058a087e6a",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/ResultadoSimulacao.jsx\n\nResumo:\n- Componente React que exibe os resultados de uma simula\u00e7\u00e3o financeira.\n\nFun\u00e7\u00f5es:\n- brl(valor) -> string: formata um n\u00famero como moeda brasileira.\n- formatarData(iso) -> string: converte uma data no formato ISO para DD/MM/AAAA.\n\nClasses:\n- ResultadoSimulacao: exibe os detalhes da simula\u00e7\u00e3o, incluindo valores e bot\u00f5es de a\u00e7\u00e3o."
+}

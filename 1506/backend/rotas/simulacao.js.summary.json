@@ -1,0 +1,4 @@
+{
+  "hash": "0b90287c83c033c0c934d49491fd8b5e",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/backend/rotas/simulacao.js\n\nResumo:\n- Gerencia requisi\u00e7\u00f5es de simula\u00e7\u00e3o financeira via API.\n\nFun\u00e7\u00f5es:\n- router.post() -> resposta: processa dados de entrada e retorna resultado da simula\u00e7\u00e3o ou erro.\n\nClasses:\n- N\u00e3o h\u00e1 classes definidas."
+}

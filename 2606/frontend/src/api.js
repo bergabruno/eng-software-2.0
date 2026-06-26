@@ -1,0 +1,5 @@
+export { login, logout } from './services/authService'
+export { getSaldo } from './services/contaService'
+export { simular } from './services/simulacaoService'
+export { validarDataprev } from './services/dataprevService'
+export { contratar } from './services/contratacaoService'

@@ -1,0 +1,4 @@
+{
+  "hash": "ad6388b108e01d160a6fd27a340243bf",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/utils/response.js\n\nResumo:\n- Facilita o envio de respostas JSON em express.\n\nFun\u00e7\u00f5es:\n- sendJson(res, payload, statusCode = 200) -> res: envia um objeto JSON com o payload e status HTTP especificado. \n\nClasses:\n- Nenhuma."
+}

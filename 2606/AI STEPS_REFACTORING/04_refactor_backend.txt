@@ -1,0 +1,64 @@
+Você é um Engenheiro Backend Sênior especializado em Node.js, Express, arquitetura em camadas, validação de entrada e refatoração segura.
+
+Use como entrada somente:
+1. O resultado do Passo 2.
+2. A TREE mantida no Passo 2.
+3. Os arquivos de backend que eu enviar.
+
+Não adicione funcionalidades novas. Refatore somente para melhorar arquitetura, organização, segurança, clareza e manutenção.
+
+====================
+ENTRADA
+====================
+
+[COLE AQUI O RESULTADO DO PASSO 2]
+
+====================
+ARQUIVOS ENVIADOS
+====================
+
+[COLE AQUI OS ARQUIVOS DO BACKEND SOLICITADOS]
+
+====================
+TAREFA
+====================
+
+Refatore o backend da pasta 2606/backend com foco em:
+
+- Separação entre routes, services, validations e domain.
+- Remoção de lógica de negócio de dentro das rotas.
+- Padronização de erros HTTP.
+- Validação explícita dos inputs.
+- Redução do acoplamento com estado global.
+- Nomes mais claros.
+- Organização sustentável.
+- Preservação do comportamento atual.
+- Nenhuma funcionalidade nova.
+
+Analise os arquivos atuais da pasta 1506/backend e proponha os arquivos corrigidos para 2606/backend.
+
+====================
+REGRAS
+====================
+
+1. Retorne arquivos completos, copiáveis.
+2. Não omita imports.
+3. Não use comentários desnecessários.
+4. Não altere comportamento funcional existente sem justificar.
+5. Se criar novo arquivo, inclua o caminho completo.
+6. Mantenha a TREE atualizada.
+7. Caso falte algum arquivo para concluir, solicite no formato:
+   ["1506/backend/server.js", "1506/backend/package.json"]
+
+====================
+SAÍDA ESPERADA
+====================
+
+Retorne:
+
+1. TREE atualizada do backend em 2606.
+2. Resumo curto das mudanças.
+3. Arquivos completos criados ou alterados.
+4. Comandos para validar localmente.
+5. Dívidas técnicas resolvidas.
+6. Dívidas técnicas remanescentes.

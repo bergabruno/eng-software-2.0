@@ -1,0 +1,4 @@
+{
+  "hash": "05f2973a51492dd4a41303336286b93c",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/utils/money.js\n\nResumo:\n- Converte e arredonda valores monet\u00e1rios para duas casas decimais.\n\nFun\u00e7\u00f5es:\n- arredondarDinheiro(valor) -> Number: arredonda o valor para duas casas decimais. \n\nClasses:\n- N/A"
+}

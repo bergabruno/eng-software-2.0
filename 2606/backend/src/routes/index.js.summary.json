@@ -1,0 +1,4 @@
+{
+  "hash": "ae5b9f0170c314fc1231f910ef8838b6",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/routes/index.js\n\nResumo:\n- Implementa rotas principais da aplica\u00e7\u00e3o utilizando o Express.\n\nFun\u00e7\u00f5es:\n- router.use(route, routes) -> void: vincula sub-rotas a grupos de endpoints.\n\nClasses:\n- Nenhuma classe definida."
+}

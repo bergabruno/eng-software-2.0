@@ -1,0 +1,4 @@
+{
+  "hash": "933584bd05c9774a9cde5abd0aadedad",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/services/simulacaoService.js\n\nResumo:\n- Realiza uma simula\u00e7\u00e3o de solicita\u00e7\u00e3o financeira via requisi\u00e7\u00e3o POST.\n\nFun\u00e7\u00f5es:\n- simular(valorSolicitado, prazoMeses) -> data: envia dados para simula\u00e7\u00e3o e retorna resposta ou lan\u00e7a erro."
+}

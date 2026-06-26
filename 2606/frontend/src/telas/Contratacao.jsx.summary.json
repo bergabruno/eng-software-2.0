@@ -1,0 +1,4 @@
+{
+  "hash": "0dffa0e13298b8980ef97451078c466c",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/telas/Contratacao.jsx\n\nResumo:\n- Componente React que gerencia a tela de confirma\u00e7\u00e3o de contrata\u00e7\u00e3o.\n\nFun\u00e7\u00f5es:\n- handleContratar() -> void: realiza a contrata\u00e7\u00e3o, gerenciando estados de loading e erro.\n\nClasses:\n- Contratacao: componente que exibe detalhes da simula\u00e7\u00e3o e permite a contrata\u00e7\u00e3o de um servi\u00e7o, utilizando estados locais para gerenciar carregamento e mensagens de erro."
+}

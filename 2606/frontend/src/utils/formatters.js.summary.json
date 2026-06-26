@@ -1,0 +1,4 @@
+{
+  "hash": "8b3f97ab9efb431d21f0655fa4058da5",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/utils/formatters.js\n\nResumo:\n- Formata valores monet\u00e1rios e datas para o padr\u00e3o brasileiro.\n\nFun\u00e7\u00f5es:\n- formatCurrencyBRL(valor) -> string: formata um n\u00famero como moeda em BRL.\n- formatDateBR(iso) -> string: converte uma data ISO para o formato DD/MM/AAAA.\n- formatDateTimeBR(iso) -> string: converte uma data ISO e hora para o formato DD/MM/AAAA HH:MM."
+}

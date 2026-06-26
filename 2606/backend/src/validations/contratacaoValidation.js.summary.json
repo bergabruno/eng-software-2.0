@@ -1,0 +1,4 @@
+{
+  "hash": "aca2996afa03fc32fa8b7a6d3cba4b9a",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/validations/contratacaoValidation.js\n\nResumo:\n- Valida dados de simula\u00e7\u00e3o de contrata\u00e7\u00e3o.\n\nFun\u00e7\u00f5es:\n- validarSimulacaoContratacao(simulacao) -> objeto: verifica se campos s\u00e3o num\u00e9ricos e retorna valores convertidos."
+}

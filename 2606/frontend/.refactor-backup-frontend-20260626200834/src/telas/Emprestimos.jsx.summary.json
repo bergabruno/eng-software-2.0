@@ -1,0 +1,4 @@
+{
+  "hash": "45fae983566e7e32299fe1ac99b31251",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/.refactor-backup-frontend-20260626200834/src/telas/Emprestimos.jsx\n\nResumo:\n- Componente React para exibir informa\u00e7\u00f5es sobre empr\u00e9stimos consignados.\n\nFun\u00e7\u00f5es:\n- Emprestimos({ onVoltar, onConsignado }) -> JSX: renderiza o layout do componente com op\u00e7\u00f5es de navega\u00e7\u00e3o e solicita\u00e7\u00e3o.\n\nClasses:\n- N\u00e3o h\u00e1 classes definidas, apenas um componente funcional."
+}

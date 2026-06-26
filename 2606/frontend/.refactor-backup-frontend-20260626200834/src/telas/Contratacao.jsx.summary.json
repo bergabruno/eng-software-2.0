@@ -1,0 +1,4 @@
+{
+  "hash": "62800071a2ab9e6feb095b1ae2d7b698",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/.refactor-backup-frontend-20260626200834/src/telas/Contratacao.jsx\n\nResumo:\n- Componente React para confirmar contrata\u00e7\u00e3o de financiamento.\n\nFun\u00e7\u00f5es:\n- brl(valor) -> formato: Formata um valor em BRL.\n- handleContratar() -> void: Executa a contrata\u00e7\u00e3o e lida com erros.\n\nClasses:\n- N\u00e3o h\u00e1 classes definidas no c\u00f3digo."
+}

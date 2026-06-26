@@ -1,0 +1,4 @@
+{
+  "hash": "02bc88e2e69ff9331933d88be5277d37",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/backend/rotas/conta.js\n\nResumo:\n- Define rotas para gest\u00e3o de conta, especificamente retornando o saldo.\n\nFun\u00e7\u00f5es:\n- router.get('/saldo', req, res) -> res.json: retorna o saldo atual em formato JSON.\n\nClasses:\n- Nenhuma classe definida."
+}

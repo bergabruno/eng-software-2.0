@@ -1,0 +1,4 @@
+{
+  "hash": "f475b96cc47820f49947c8d878c56891",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/services/authService.js\n\nResumo:\n- Gerencia autentica\u00e7\u00e3o de usu\u00e1rios com fun\u00e7\u00f5es de login e logout.\n\nFun\u00e7\u00f5es:\n- login() -> { ok: true, nome: 'Cliente FIAP' }: autentica o usu\u00e1rio e retorna informa\u00e7\u00f5es b\u00e1sicas.\n- logout() -> { ok: true }: finaliza a sess\u00e3o do usu\u00e1rio com confirma\u00e7\u00e3o de logout.\n\nClasses:\n- Nenhuma classe definida."
+}

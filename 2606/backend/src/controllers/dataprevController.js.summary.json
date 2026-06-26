@@ -1,0 +1,4 @@
+{
+  "hash": "4e3c0636e539712fdf3c7f81a0fbc06d",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/controllers/dataprevController.js\n\nResumo:\n- Controlador para valida\u00e7\u00e3o de dados do Dataprev.\n\nFun\u00e7\u00f5es:\n- validar(req, res) -> resposta: valida dados recebidos e envia resposta JSON."
+}

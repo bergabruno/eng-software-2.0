@@ -1,0 +1,4 @@
+{
+  "hash": "1790a2583e2b181cc469e14f289a5c79",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/domain/simulacaoCalculator.js\n\nResumo:\n- Calcula simulac\u00e3o de empr\u00e9stimos consignados.\n\nFun\u00e7\u00f5es:\n- calcularSimulacao(valorSolicitado, prazoMeses) -> objeto: retorna detalhes sobre valor, prazo, taxas e parcelas do empr\u00e9stimo. \n\nClasses:\n- Nenhuma classe definida."
+}

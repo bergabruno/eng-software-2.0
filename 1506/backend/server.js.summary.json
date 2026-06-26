@@ -1,0 +1,4 @@
+{
+  "hash": "c124441d10532378b842255e63e441b9",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/backend/server.js\n\nResumo:\n- Configura\u00e7\u00e3o de um servidor Express para uma API REST.\n\nFun\u00e7\u00f5es:\n- app.use(ruta, handler): define roteadores para diferentes endpoints da API.\n- app.listen(port, callback): inicia o servidor na porta especificada e imprime mensagem de status.\n\nClasses:\n- Nenhuma classe definida."
+}

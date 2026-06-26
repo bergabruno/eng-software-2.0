@@ -1,0 +1,4 @@
+{
+  "hash": "c25e5d704d2c5610251e65c41e8d9aa4",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Emprestimos.jsx.summary.json\n\nResumo:\n- Componente React para exibir informa\u00e7\u00f5es sobre empr\u00e9stimos consignados.\n\nFun\u00e7\u00f5es:\n- Emprestimos({ onVoltar, onConsignado }) -> JSX: renderiza a interface de empr\u00e9stimos com navega\u00e7\u00e3o.\n\nClasses:\n- Nenhuma classe definida; utiliza componentes funcionais do React."
+}

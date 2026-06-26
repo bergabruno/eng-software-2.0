@@ -1,0 +1,4 @@
+{
+  "hash": "964292ab9c0d0a421e486e78b060b420",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/controllers/contratacaoController.js\n\nResumo:\n- Controlador para processar contrata\u00e7\u00f5es.\n\nFun\u00e7\u00f5es:\n- contratar(req, res) -> resposta: processa a contrata\u00e7\u00e3o utilizando o servi\u00e7o e envia a resposta em formato JSON.\n\nClasses:\n- N/A: N\u00e3o h\u00e1 classes definidas no c\u00f3digo."
+}

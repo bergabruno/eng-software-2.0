@@ -1,0 +1,4 @@
+{
+  "hash": "ce54b78885a4c028ac9dcae4eb28abf9",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/backend/calculadora.js\n\nResumo:\n- Calcula a simula\u00e7\u00e3o de empr\u00e9stimo consignado com uma taxa fixa mensal.\n\nFun\u00e7\u00f5es:\n- calcularSimulacao(valorSolicitado, prazoMeses) -> objeto: retorna detalhes do empr\u00e9stimo, como valor da parcela e total a pagar.\n- validarEntrada(valorSolicitado, prazoMeses) -> string|null: verifica a validade dos inputs de entrada.\n\nClasses:\n- Nenhuma classe definida."
+}

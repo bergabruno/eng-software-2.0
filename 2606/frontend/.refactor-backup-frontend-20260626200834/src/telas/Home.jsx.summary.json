@@ -1,0 +1,4 @@
+{
+  "hash": "6dde56e4911f5d02894fe08dd1868252",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/.refactor-backup-frontend-20260626200834/src/telas/Home.jsx\n\nResumo:\n- Componente React que exibe o saldo e op\u00e7\u00f5es de logout/empr\u00e9stimos.\n\nFun\u00e7\u00f5es:\n- brl(valor) -> string: formata um valor num\u00e9rico em moeda brasileira.\n\nClasses:\n- Nenhuma classe definida."
+}

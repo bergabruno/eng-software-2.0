@@ -1,0 +1,9 @@
+const TAXA_MENSAL = 0.018
+const PRAZO_MINIMO_MESES = 2
+const PRAZO_MAXIMO_MESES = 102
+
+module.exports = {
+  TAXA_MENSAL,
+  PRAZO_MINIMO_MESES,
+  PRAZO_MAXIMO_MESES,
+}

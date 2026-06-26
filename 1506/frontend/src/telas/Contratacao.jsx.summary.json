@@ -1,0 +1,4 @@
+{
+  "hash": "62800071a2ab9e6feb095b1ae2d7b698",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Contratacao.jsx\n\nResumo:\n- Componente React para confirmar a contrata\u00e7\u00e3o de um servi\u00e7o financeiro.\n\nFun\u00e7\u00f5es:\n- brl(valor) -> string: formata um valor num\u00e9rico em moeda brasileira.\n- handleContratar() -> void: gerencia o processo de contrata\u00e7\u00e3o, lidando com erros e carregamento.\n\nClasses:\n- N\u00e3o h\u00e1 classes definidas no c\u00f3digo."
+}

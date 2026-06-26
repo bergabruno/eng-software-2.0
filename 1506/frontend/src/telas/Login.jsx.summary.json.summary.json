@@ -1,0 +1,4 @@
+{
+  "hash": "30cfdd8d23cbafdddfeb3c9677d94ba0",
+  "summary": "```json\n{\n  \"hash\": \"fc59dc5863d9b330fe381cdf9e9ce3ab\",\n  \"summary\": \"Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Login.jsx\\n\\nResumo:\\n- Componente de login que permite ao usu\u00e1rio acessar a conta.\\n\\nFun\u00e7\u00f5es:\\n- Login({ onEntrar }) -> JSX: renderiza o layout de login com um bot\u00e3o para acessar.\\n\\nClasses:\\n- Nenhuma classe definida.\"\n}\n```"
+}

@@ -1,0 +1,4 @@
+{
+  "hash": "03004fffbaf0892b724d93a1d3f0afdf",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/routes/contaRoutes.js\n\nResumo:\n- Define rotas para opera\u00e7\u00f5es de conta.\n\nFun\u00e7\u00f5es:\n- router.get('/saldo', asyncHandler(contaController.obterSaldo)) -> resposta: Obt\u00e9m o saldo da conta de forma ass\u00edncrona.\n\nClasses:\n- Nenhuma classe definida."
+}

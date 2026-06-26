@@ -1,0 +1,4 @@
+{
+  "hash": "db71ce210e9c6cbadba98ccb42f94694",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/components/InfoRow.jsx\n\nResumo:\n- Componente funcional que exibe uma linha de informa\u00e7\u00e3o em uma tabela.\n\nFun\u00e7\u00f5es:\n- InfoRow({ label, value, valueClassName }) -> JSX: renderiza uma linha de tabela com r\u00f3tulo e valor formatados.\n\nClasses:\n- (nenhuma classe declarada)"
+}

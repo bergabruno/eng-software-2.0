@@ -1,0 +1,4 @@
+{
+  "hash": "7556b350287e35552be9ee5851567e5a",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/routes/simulacaoRoutes.js\n\nResumo:\n- Define as rotas para simula\u00e7\u00e3o na aplica\u00e7\u00e3o Express.\n\nFun\u00e7\u00f5es:\n- post('/') -> simular: registra a rota para executar simula\u00e7\u00f5es utilizando um controlador.\n\nClasses:\n- N/A: Nenhuma classe definida."
+}

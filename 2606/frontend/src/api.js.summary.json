@@ -1,0 +1,4 @@
+{
+  "hash": "44fd79eaf5571a86760b7c7321c197ed",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/api.js\n\nResumo:\n- Centraliza a exporta\u00e7\u00e3o de fun\u00e7\u00f5es de servi\u00e7os para autentica\u00e7\u00e3o, conta, simula\u00e7\u00e3o, datas e contrata\u00e7\u00e3o.\n\nFun\u00e7\u00f5es:\n- login() -> Promise: realiza a autentica\u00e7\u00e3o do usu\u00e1rio.\n- logout() -> Promise: finaliza a sess\u00e3o do usu\u00e1rio.\n- getSaldo() -> Promise: obt\u00e9m o saldo da conta.\n- simular() -> Object: executa simula\u00e7\u00f5es financeiras.\n- validarDataprev() -> Boolean: valida datas para Previd\u00eancia.\n- contratar() -> Promise: processa contrata\u00e7\u00f5es."
+}

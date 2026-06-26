@@ -1,0 +1,4 @@
+{
+  "hash": "de4bf230d27287c14a05fb0a366aca90",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/services/contratacaoService.js\n\nResumo:\n- Gerencia a contrata\u00e7\u00e3o de contratos com valida\u00e7\u00e3o de simula\u00e7\u00f5es.\n\nFun\u00e7\u00f5es:\n- contratar(payload) -> objeto: valida token, consome servi\u00e7os e cria contrato retornando detalhes da contrata\u00e7\u00e3o.\n\nClasses:\n- Nenhuma classe definida."
+}

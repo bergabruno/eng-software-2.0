@@ -1,0 +1,4 @@
+{
+  "hash": "d62da78fef158281408cf38617a23348",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/middlewares/notFoundHandler.js\n\nResumo:\n- Middleware para lidar com rotas n\u00e3o encontradas.\n\nFun\u00e7\u00f5es:\n- notFoundHandler(req, res) -> res: envia resposta JSON com status 404 e mensagem de erro."
+}

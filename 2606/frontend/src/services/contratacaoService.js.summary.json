@@ -1,0 +1,4 @@
+{
+  "hash": "9194e3c1ea94a5c54fa30be44f605be9",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/services/contratacaoService.js\n\nResumo:\n- Servi\u00e7o para realizar contrata\u00e7\u00f5es via API.\n\nFun\u00e7\u00f5es:\n- contratar(tokenDataprev, simulacao) -> { status, ...data }: envia uma requisi\u00e7\u00e3o POST com dados de contrata\u00e7\u00e3o e retorna o status e os dados da resposta. \n\nClasses:\n- Nenhuma."
+}

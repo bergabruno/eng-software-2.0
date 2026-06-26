@@ -1,0 +1,4 @@
+{
+  "hash": "73d0c6995ff2662964b2ed04f5e0db24",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/controllers/contaController.js\n\nResumo:\n- Controlador para gerenciamento de contas.\n\nFun\u00e7\u00f5es:\n- obterSaldo(req, res) -> JSON: retorna o saldo da conta utilizando o servi\u00e7o de conta. \n\nClasses:\n- (n\u00e3o h\u00e1 classes definidas)."
+}

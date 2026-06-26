@@ -1,0 +1,4 @@
+{
+  "hash": "7aaf4961d59ae65046decb6ef6d87b9e",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/App.jsx\n\nResumo:\n- Componente principal que gerencia a navega\u00e7\u00e3o entre v\u00e1rias telas de um sistema de fluxo consignado.\n\nFun\u00e7\u00f5es:\n- App() -> JSX: Renderiza as telas com base no estado do fluxo de navega\u00e7\u00e3o.\n\nClasses:\n- N/A: N\u00e3o cont\u00e9m classes expl\u00edcitas, utiliza fun\u00e7\u00f5es e componentes funcionais."
+}

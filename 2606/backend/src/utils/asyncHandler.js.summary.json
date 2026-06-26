@@ -1,0 +1,4 @@
+{
+  "hash": "9959586ce97c3819bf2c2947ba275b60",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/utils/asyncHandler.js\n\nResumo:\n- Facilita o tratamento de erros em fun\u00e7\u00f5es ass\u00edncronas de middleware.\n\nFun\u00e7\u00f5es:\n- asyncHandler(handler) -> wrappedHandler: envolve um handler ass\u00edncrono para capturar e manipular erros.  \n\nClasses:\n- Nenhuma classe definida."
+}

@@ -1,0 +1,4 @@
+{
+  "hash": "e1b4f92068ec860084b1ea19c4319851",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/.refactor-backup-frontend-20260626200834/src/telas/StatusDataprev.jsx\n\nResumo:\n- Componente React que verifica e exibe o status da simula\u00e7\u00e3o junto ao Dataprev.\n\nFun\u00e7\u00f5es:\n- StatusDataprev({ simulacao, onVoltar, onContinuar }) -> JSX: controla o estado de loading, sucesso ou erro da valida\u00e7\u00e3o.\n\nClasses:\n- N\u00e3o h\u00e1 classes definidas; c\u00f3digo utiliza fun\u00e7\u00f5es funcionais e hooks do React."
+}

@@ -1,0 +1,4 @@
+{
+  "hash": "cab275d7af3c4ef48b67de1df390ed91",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/app.js\n\nResumo:\n- Cria uma aplica\u00e7\u00e3o Express configurada com middleware de CORS e manipuladores de erros.\n\nFun\u00e7\u00f5es:\n- createApp() -> app: inicializa e retorna a aplica\u00e7\u00e3o Express com rotas e middlewares.\n\nClasses:\n- N/A: n\u00e3o h\u00e1 classes definidas neste c\u00f3digo."
+}

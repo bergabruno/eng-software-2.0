@@ -1,0 +1,4 @@
+{
+  "hash": "9b74d8200464891e3345928a96c7eb2e",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/services/simulacaoService.js\n\nResumo:\n- Servi\u00e7o para simula\u00e7\u00e3o de empr\u00e9stimos.\n\nFun\u00e7\u00f5es:\n- simularEmprestimo(payload) -> resultado: valida e calcula a simula\u00e7\u00e3o de um empr\u00e9stimo baseado no payload fornecido. \n\nClasses:\n- Nenhuma classe definida."
+}

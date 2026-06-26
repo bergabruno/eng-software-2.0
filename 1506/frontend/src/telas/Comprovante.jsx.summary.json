@@ -1,0 +1,4 @@
+{
+  "hash": "0688133ea6edff882b1ed53d5aa5e5c5",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Comprovante.jsx\n\nResumo:\n- Exibe um comprovante de contrata\u00e7\u00e3o com detalhes financeiros.\n\nFun\u00e7\u00f5es:\n- brl(valor) -> string: formata um valor como moeda brasileira.\n- formatarData(iso) -> string: formata uma data no padr\u00e3o brasileiro.\n\nClasses:\n- Comprovante: componente que renderiza o comprovante, incluindo cabe\u00e7alho, detalhes da contrata\u00e7\u00e3o e bot\u00e3o para retornar ao in\u00edcio."
+}

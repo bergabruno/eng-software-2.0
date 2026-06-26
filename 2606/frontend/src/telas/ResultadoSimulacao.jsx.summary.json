@@ -1,0 +1,4 @@
+{
+  "hash": "4470540334372d6ad87956e679a7b643",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/telas/ResultadoSimulacao.jsx\n\nResumo:\n- Exibe os resultados de uma simula\u00e7\u00e3o financeira.\n\nFun\u00e7\u00f5es:\n- ResultadoSimulacao({ simulacao, onVoltar, onValidar }) -> JSX: renderiza os resultados e bot\u00f5es de intera\u00e7\u00e3o.\n\nClasses:\n- N\u00e3o h\u00e1 classes definidas. C\u00f3digo se utiliza de componentes funcionais e estiliza\u00e7\u00f5es para apresenta\u00e7\u00e3o de dados."
+}

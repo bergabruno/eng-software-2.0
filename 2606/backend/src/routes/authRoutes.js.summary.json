@@ -1,0 +1,4 @@
+{
+  "hash": "fe1b6edebfd3fd0ba0c07663f1eb05d0",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/routes/authRoutes.js\n\nResumo:\n- Gerencia rotas de autentica\u00e7\u00e3o do usu\u00e1rio.\n\nFun\u00e7\u00f5es:\n- post('/login', asyncHandler(authController.login)) -> response: autentica usu\u00e1rio.\n- post('/logout', asyncHandler(authController.logout)) -> response: encerra sess\u00e3o do usu\u00e1rio.\n\nClasses:\n- Nenhuma classe definida."
+}

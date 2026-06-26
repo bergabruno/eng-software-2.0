@@ -1,0 +1,4 @@
+{
+  "hash": "3802947eed0875bc2bf00c9700e855b1",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/repositories/memoryRepository.js\n\nResumo:\n- Gerencia saldo, contratos e tokens em mem\u00f3ria.\n\nFun\u00e7\u00f5es:\n- obterSaldo() -> saldo: retorna o saldo atual.\n- creditarSaldo(valor) -> objeto: atualiza e retorna saldo antes/depois do cr\u00e9dito.\n- incrementarConsultaDataprev() -> contador: incrementa e retorna contador de consultas.\n- salvarTokenDataprev(token) -> token: armazena e retorna o \u00faltimo token.\n- tokenDataprevValido(token) -> boolean: valida o token atual.\n- consumirTokenDataprev() -> void: limpa o \u00faltimo token.\n- gerarContratoId() -> string: gera e retorna um novo ID de contrato.\n- salvarContrato(contrato) -> contrato: armazena e retorna o contrato. \n\nClasses:\n- (Nenhuma classe definida)"
+}

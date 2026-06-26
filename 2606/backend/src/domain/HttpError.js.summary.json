@@ -1,0 +1,4 @@
+{
+  "hash": "3db0cb9f9af88afaf5749b39fa7cc4c3",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/domain/HttpError.js\n\nResumo:\n- Define uma classe personalizada de erro HTTP.\n\nFun\u00e7\u00f5es:\n- constructor(statusCode, mensagem, metadata) -> HttpError: inicializa um erro com status, mensagem e metadados opcionais.\n\nClasses:\n- HttpError: extens\u00e3o da classe Error, adiciona statusCode e metadados ao erro."
+}

@@ -1,0 +1,4 @@
+{
+  "hash": "46e84281a95d880c840480f939e291ff",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/services/httpClient.js\n\nResumo:\n- Gerencia requisi\u00e7\u00f5es HTTP e processa respostas em formato JSON.\n\nFun\u00e7\u00f5es:\n- requestJson(path, options) -> { response, data }: realiza uma requisi\u00e7\u00e3o JSON para um caminho especificado e retorna a resposta e os dados processados."
+}

@@ -1,0 +1,4 @@
+{
+  "hash": "1748c589fdd5ec38f3863521bb906de1",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/.refactor-backup-frontend-20260626200834/src/api.js\n\nResumo:\n- Gest\u00e3o de requisi\u00e7\u00f5es API para autentica\u00e7\u00e3o, saldo e simula\u00e7\u00e3o financeira.\n\nFun\u00e7\u00f5es:\n- login() -> Promise: autentica o usu\u00e1rio.\n- logout() -> Promise: finaliza a sess\u00e3o do usu\u00e1rio.\n- getSaldo() -> Promise: recupera o saldo da conta.\n- simular(valorSolicitado, prazoMeses) -> Promise: simula uma opera\u00e7\u00e3o financeira.\n- validarDataprev(valorSolicitado, prazoMeses) -> Promise: valida dados na Dataprev.\n- contratar(tokenDataprev, simulacao) -> Promise: realiza a contrata\u00e7\u00e3o financeira. \n\nClasses:\n- Nenhuma classe definida."
+}

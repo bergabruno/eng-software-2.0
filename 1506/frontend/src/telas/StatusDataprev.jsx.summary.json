@@ -1,0 +1,4 @@
+{
+  "hash": "e1b4f92068ec860084b1ea19c4319851",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/StatusDataprev.jsx\n\nResumo:\n- Componente React que valida o status de uma simula\u00e7\u00e3o junto ao Dataprev.\n\nFun\u00e7\u00f5es:\n- StatusDataprev({ simulacao, onVoltar, onContinuar }) -> JSX: renderiza o status da consulta e intera\u00e7\u00f5es.\n\nClasses:\n- (nenhuma classe definida nesta implementa\u00e7\u00e3o)."
+}

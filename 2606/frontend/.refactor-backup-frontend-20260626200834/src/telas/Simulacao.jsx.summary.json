@@ -1,0 +1,4 @@
+{
+  "hash": "b923d2bf7cd149281e181ac5e11e9764",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/.refactor-backup-frontend-20260626200834/src/telas/Simulacao.jsx\n\nResumo:\n- Componente React para simula\u00e7\u00e3o de empr\u00e9stimos.\n\nFun\u00e7\u00f5es:\n- formatarBRL(digitos) -> string: formata valor monet\u00e1rio para o formato brasileiro.\n- parseBRL(formatted) -> number: converte valor monet\u00e1rio formatado em n\u00famero.\n- dataISO(offset) -> string: retorna a data em formato ISO com offset em dias.\n\nClasses:\n- Simulacao: componente que gerencia o estado e l\u00f3gica da simula\u00e7\u00e3o de empr\u00e9stimos."
+}

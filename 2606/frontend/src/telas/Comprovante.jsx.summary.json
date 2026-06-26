@@ -1,0 +1,4 @@
+{
+  "hash": "20a2421f5d19ea9fc0faa812659f5bf4",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/telas/Comprovante.jsx\n\nResumo:\n- Renderiza um comprovante de contrata\u00e7\u00e3o com detalhes financeiros.\n\nFun\u00e7\u00f5es:\n- Comprovante({ comprovante, onInicio }) -> JSX: exibe informa\u00e7\u00f5es do comprovante ou retorna null se ausente.\n\nClasses:\n- Nenhuma classe definida: componente funcional que utiliza componentes e utilit\u00e1rios externos."
+}

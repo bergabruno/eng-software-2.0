@@ -1,0 +1,4 @@
+{
+  "hash": "7c8217236ae58c71c8abb3f6a004c840",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/utils/currencyInput.js\n\nResumo:\n- Formata e analisa entradas de moeda no formato brasileiro.\n\nFun\u00e7\u00f5es:\n- formatCurrencyInput(digitos) -> string: formata a string de d\u00edgitos para o formato de moeda BRL.\n- parseCurrencyBRL(formatted) -> number: converte a string formatada de volta para um n\u00famero."
+}

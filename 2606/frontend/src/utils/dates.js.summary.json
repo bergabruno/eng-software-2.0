@@ -1,0 +1,4 @@
+{
+  "hash": "e7343605708257993a20c7bb934e2292",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/utils/dates.js\n\nResumo:\n- Fornece uma fun\u00e7\u00e3o para obter a data ISO ajustada por um offset.\n\nFun\u00e7\u00f5es:\n- getISODateWithOffset(offset) -> string: retorna a data atual em formato ISO, ajustada pelo n\u00famero de dias especificado no offset."
+}

@@ -1,0 +1,4 @@
+{
+  "hash": "ee44aca2d413b4a6601c5980560910d5",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/middlewares/errorHandler.js\n\nResumo:\n- Middleware para tratamento de erros em requisi\u00e7\u00f5es.\n\nFun\u00e7\u00f5es:\n- errorHandler(err, req, res, next) -> res: processa erros e envia resposta adequada."
+}

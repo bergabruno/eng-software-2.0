@@ -1,0 +1,4 @@
+{
+  "hash": "6dde56e4911f5d02894fe08dd1868252",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/frontend/src/telas/Home.jsx\n\nResumo:\n- Componente funcional que exibe o saldo e op\u00e7\u00f5es de logout e empr\u00e9stimos.\n\nFun\u00e7\u00f5es:\n- brl(valor) -> string: formata um valor monet\u00e1rio em reais.\n\nClasses:\n- Home: componente principal que renderiza o layout da tela inicial com saldo e bot\u00f5es de a\u00e7\u00e3o."
+}

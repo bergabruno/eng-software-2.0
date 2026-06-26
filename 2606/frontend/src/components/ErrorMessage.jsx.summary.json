@@ -1,0 +1,4 @@
+{
+  "hash": "a9214a8145f2c0ad7e8f3ecb27259e19",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/frontend/src/components/ErrorMessage.jsx\n\nResumo:\n- Componente funcional que exibe uma mensagem de erro se houver conte\u00fado.\n\nFun\u00e7\u00f5es:\n- ErrorMessage({ children }) -> JSX.Element: renderiza um par\u00e1grafo com a mensagem de erro.\n\nClasses:\n- N/A: n\u00e3o h\u00e1 classes definidas."
+}

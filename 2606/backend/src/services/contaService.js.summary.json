@@ -1,0 +1,4 @@
+{
+  "hash": "e5826af6e937d3f5070b0b2176271f61",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/services/contaService.js\n\nResumo:\n- Servi\u00e7o para obter saldo da conta utilizando um reposit\u00f3rio em mem\u00f3ria.\n\nFun\u00e7\u00f5es:\n- obterSaldo() -> { saldo: number }: Retorna um objeto com o saldo da conta. \n\nClasses:\n- Nenhuma classe definida."
+}

@@ -1,0 +1,4 @@
+{
+  "hash": "47705780ad645ce38a9739a2e852d402",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/2606/backend/src/domain/contratoFactory.js\n\nResumo:\n- Cria um objeto contrato a partir de informa\u00e7\u00f5es de simula\u00e7\u00e3o e saldo.\n\nFun\u00e7\u00f5es:\n- criarContrato({ contratoId, simulacao, saldoAntes, saldoDepois }) -> objeto: gera um contrato com detalhes financeiros e data de contrata\u00e7\u00e3o atual. \n\nClasses:\n- N/A"
+}

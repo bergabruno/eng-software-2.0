@@ -1,0 +1,4 @@
+{
+  "hash": "0630ee25e4f26948e632398f9c247cd3",
+  "summary": "Arquivo: /root/fiap/eng-software-2.0/1506/backend/rotas/auth.js\n\nResumo:\n- Gerencia rotas de autentica\u00e7\u00e3o para login e logout.\n\nFun\u00e7\u00f5es:\n- router.post('/login', req, res) -> res.json: retorna resposta de login com nome do cliente.\n- router.post('/logout', req, res) -> res.json: retorna resposta de logout confirmando a\u00e7\u00e3o.\n\nClasses:\n- Nenhuma classe definida."
+}
